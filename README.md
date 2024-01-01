@@ -95,7 +95,17 @@ Much of the tasks and issues representing requirements within this repository wi
 
 # License
 
-Please see [LICENSE information in PDT-DOC-LIC](https://github.com/programming-digital-twins/pdt-exercise-tasks/issues/2) for more information.
+Please see [LICENSE information in PDT-DOC-LIC](https://github.com/programming-digital-twins/pdt-exercise-tasks/issues/2) for more information. In summary:
+
+*Documentation - Usage and License*
+
+This project's [written instructions and non-source code documentation](https://github.com/orgs/programming-digital-twins/projects/1) - all Notes, Instructions and Cards contained within this Kanban board - are available under the following license:
+ - Documentation: Copyright &copy; 2020 - 2024 by [Andrew D. King](https://andyking.me). Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](https://github.com/programming-digital-twins/pdt-exercise-tasks/blob/default/LICENSE) for details.
+
+*Source Code Solutions and Examples - Usage and License*
+
+This project contains embedded sample source codes representing examples and solutions. Unless otherwise represented, these embedded source codes (C# and Python) are available under the following license:
+ - Source Codes: Copyright &copy; 2020 - 2024 [Andrew D. King](https://andyking.me). Licensed under [The MIT License](https://opensource.org/licenses/MIT). See [LICENSE-CODE](https://github.com/programming-digital-twins/pdt-exercise-tasks/blob/default/LICENSE-CODE) for details.
 
 # References
 
