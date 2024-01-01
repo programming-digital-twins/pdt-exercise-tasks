@@ -109,6 +109,8 @@ Please see [LICENSE information in PDT-DOC-LIC](https://github.com/programming-d
   - Reference: A. Banks, R. Gupta. MQTT Version 3.1.1. OASIS Standard, 2014. Available: https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html.
 - [Mosquitto MQTT Broker](https://mosquitto.org/)
   - Reference: The Eclipse Foundation, Inc. Eclipse Mosquitto - An Open Source MQTT Broker. Available: https://mosquitto.org/. Accessed 15Nov2023.
+- [InfluxDB v2](https://docs.influxdata.com/influxdb/v2/)
+  - Reference: Influx Data. Get started with InfluxDB v2. Available: https://docs.influxdata.com/influxdb/v2/. Accessed 01Jan2024.
 - [Sense-Emu](https://sense-emu.readthedocs.io/en/v1.1/)
   - Reference: The Raspberry Pi Foundation. Sense HAT Emulator. Available: https://sense-emu.readthedocs.io/en/v1.0/. Accessed 15Nov2023.
 - [Wireshark](https://www.wireshark.org/)
