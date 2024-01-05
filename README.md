@@ -11,8 +11,8 @@ All Lab Module exercises can be found here:
 There are dozens of exercises listed, each part of building a basic, end-to-end Digital Twin solution - step by step. This content is based on the course I created for teaching introductory IoT and Digital Twins concepts in a lab-based University course.
 
 There are three primary repositories that provide the core content for this project:
- - Edge Device Application (Python): [pdt-edge-components](https://github.com/programming-digital-twins/pdt-client-framework)
- - Digital Twin Client Framework (C#): [pdt-client-framework](https://github.com/programming-digital-twins/pdt-client-framework)
+ - Edge Device Application (Python): [pdt-edge-components](https://github.com/programming-digital-twins/pdt-edge-components)
+ - Digital Twin Client Framework (C#): [pdt-cfw-components](https://github.com/programming-digital-twins/pdt-cfw-components)
  - Digital Twin Application (specific to Unity 3D - C# and other): [pdt-unity-components](https://github.com/programming-digital-twins/pdt-unity-components)
 
 The combination of these repositories, coupled with the [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1) I mentioned previously, comprise the lab module exercises and frameworks needed for implementation.
@@ -113,6 +113,8 @@ This project contains embedded sample source codes representing examples and sol
 
 ## Tools and Specifications (subject to change)
 
+- [Visual Studio](https://visualstudio.microsoft.com/vs/)
+  - Reference: Microsoft. Visual Studio. Available: [https://code.visualstudio.com/](https://visualstudio.microsoft.com/vs/). Accessed 04Jan2024.
 - [Visual Studio Code](https://code.visualstudio.com/)
   - Reference: Microsoft. Visual Studio Code. Available: https://code.visualstudio.com/. Accessed 15Nov2023.
 - [Unity 3D for Students](https://unity.com/products/unity-student)
