@@ -65,7 +65,7 @@ This naming convention is designed to help you navigate through the requirements
     - DTA: A Digital Twin App (DTA)-specific requirement.
     - INT: An integration requirement that may depend upon other requirements specific to those labeled as CFG, EDA and / or DTA.
   - lab module #:
-    - 01 - 10: Each Lab Module aligns to a Chapter in the book.
+    - 01 - 10: Depicts the order of implementation for the various lab modules.
   - sequence #:
     - 001 - 099: Depicts the order in which the requirements should be implemented. Note that sequence #'s 000 and 100 are reserved, as indicated in the NOTE below.
 
