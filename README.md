@@ -61,7 +61,7 @@ This naming convention is designed to help you navigate through the requirements
     - STU: A student-specific requirement, usually documentation-related (this is relevant if enrolled in the Connected Devices course, for example).
     - CFG: A configuration requirement.
     - EDA: An Edge Device App (EDA)-specific requirement.
-    - DTA: A Client Framework (CFW)-specific requirement.
+    - CFW: A Client Framework (CFW)-specific requirement.
     - DTA: A Digital Twin App (DTA)-specific requirement.
     - INT: An integration requirement that may depend upon other requirements specific to those labeled as CFG, EDA and / or DTA.
   - lab module #:
