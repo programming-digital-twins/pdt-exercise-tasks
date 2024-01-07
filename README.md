@@ -114,19 +114,29 @@ This project contains embedded sample source codes representing examples and sol
 
 ## Tools and Specifications (subject to change)
 
+- [DTDLParser](https://github.com/digitaltwinconsortium/DTDLParser)
+  - Reference: Digital Twin Consortium and contributors. (2024) [Online]. Available: https://github.com/digitaltwinconsortium/DTDLParser.
+- [InfluxDB.Client](https://github.com/influxdata/influxdb-client-csharp)
+  - Reference: Influx Data, Inc. Influx DB C# Client. (2024) [Online]. Available: https://github.com/influxdata/influxdb-client-csharp.
+- [InfluxDB v2](https://docs.influxdata.com/influxdb/v2/)
+  - Reference: Influx Data, Inc. Get started with InfluxDB v2. Available: https://docs.influxdata.com/influxdb/v2/. Accessed 01Jan2024.
+- [Mosquitto MQTT Broker](https://mosquitto.org/)
+  - Reference: The Eclipse Foundation, Inc. Eclipse Mosquitto - An Open Source MQTT Broker. Available: https://mosquitto.org/. Accessed 15Nov2023.
+- [MQTT v 3.1.1](https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html)
+  - Reference: A. Banks, R. Gupta. MQTT Version 3.1.1. OASIS Standard, 2014. Available: https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html.
+- [MQTTnet](https://github.com/dotnet/MQTTnet)
+  - Reference: .NET Foundation and contributors. MQTTnet .NET library for MQTT communications. (2024) [Online]. Available: https://github.com/dotnet/MQTTnet.
+- [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
+  - Reference: James Newton-King. Json.NET JSON framework for .NET. (2024) [Online]. Available: https://github.com/JamesNK/Newtonsoft.Json.
+- [NUnit](https://nunit.org/)
+  - Reference: Charlie Poole, Rob Prouse. Nunit unit testing framework for .NET languages. (2024) [Online]. Available: https://github.com/nunit.
+- [Sense-Emu](https://sense-emu.readthedocs.io/en/v1.1/)
+  - Reference: The Raspberry Pi Foundation. Sense HAT Emulator. Available: https://sense-emu.readthedocs.io/en/v1.0/. Accessed 15Nov2023.
+- [Unity 3D for Students](https://unity.com/products/unity-student)
+  - Reference: Unity Technologies. Unity Student Plan. Available: https://unity.com/products/unity-student. Accessed 15Nov2023.
 - [Visual Studio](https://visualstudio.microsoft.com/vs/)
   - Reference: Microsoft. Visual Studio. Available: [https://code.visualstudio.com/](https://visualstudio.microsoft.com/vs/). Accessed 04Jan2024.
 - [Visual Studio Code](https://code.visualstudio.com/)
   - Reference: Microsoft. Visual Studio Code. Available: https://code.visualstudio.com/. Accessed 15Nov2023.
-- [Unity 3D for Students](https://unity.com/products/unity-student)
-  - Reference: Unity Technologies. Unity Student Plan. Available: https://unity.com/products/unity-student. Accessed 15Nov2023.
-- [MQTT v 3.1.1](https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html)
-  - Reference: A. Banks, R. Gupta. MQTT Version 3.1.1. OASIS Standard, 2014. Available: https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html.
-- [Mosquitto MQTT Broker](https://mosquitto.org/)
-  - Reference: The Eclipse Foundation, Inc. Eclipse Mosquitto - An Open Source MQTT Broker. Available: https://mosquitto.org/. Accessed 15Nov2023.
-- [InfluxDB v2](https://docs.influxdata.com/influxdb/v2/)
-  - Reference: Influx Data. Get started with InfluxDB v2. Available: https://docs.influxdata.com/influxdb/v2/. Accessed 01Jan2024.
-- [Sense-Emu](https://sense-emu.readthedocs.io/en/v1.1/)
-  - Reference: The Raspberry Pi Foundation. Sense HAT Emulator. Available: https://sense-emu.readthedocs.io/en/v1.0/. Accessed 15Nov2023.
 - [Wireshark](https://www.wireshark.org/)
   - Reference: G. Combs et al. Wireshark. Available: https://gitlab.com/wireshark/wireshark. Accessed 15Nov2023.
