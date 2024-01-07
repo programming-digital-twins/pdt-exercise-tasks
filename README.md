@@ -130,6 +130,12 @@ This project contains embedded sample source codes representing examples and sol
   - Reference: James Newton-King. Json.NET JSON framework for .NET. (2024) [Online]. Available: https://github.com/JamesNK/Newtonsoft.Json.
 - [NUnit](https://nunit.org/)
   - Reference: Charlie Poole, Rob Prouse. Nunit unit testing framework for .NET languages. (2024) [Online]. Available: https://github.com/nunit.
+- [pdt-cfw-components](https://github.com/programming-digital-twins/pdt-cfw-components)
+  - Reference: Andrew D. King. Programming Digital Twins Client Framework Components (Client Framework). (2024) [Online]. Available: https://github.com/programming-digital-twins/pdt-cfw-components.
+- [pdt-edge-components](https://github.com/programming-digital-twins/pdt-edge-components)
+  - Reference: Andrew D. King. Programming Digital Twins Edge Components (Edge Device App). (2024) [Online]. Available: https://github.com/programming-digital-twins/pdt-edge-components.
+- [pdt-unity-components](https://github.com/programming-digital-twins/pdt-unity-components)
+  - Reference: Andrew D. King. Programming Digital Twins Unity Components (Digital Twin App). (2024) [Online]. Available: https://github.com/programming-digital-twins/pdt-unity-components.
 - [Sense-Emu](https://sense-emu.readthedocs.io/en/v1.1/)
   - Reference: The Raspberry Pi Foundation. Sense HAT Emulator. Available: https://sense-emu.readthedocs.io/en/v1.0/. Accessed 15Nov2023.
 - [Unity 3D for Students](https://unity.com/products/unity-student)
