@@ -10,15 +10,16 @@ All Lab Module exercises can be found here:
 
 There are dozens of exercises listed, each part of building a basic, end-to-end Digital Twin solution - step by step. This content is based on the course I created for teaching introductory IoT and Digital Twins concepts in a lab-based University course.
 
-There are three primary repositories that provide the core content for this project:
- - Edge Device Application (Python): [pdt-edge-components](https://github.com/programming-digital-twins/pdt-edge-components)
- - Digital Twin Client Framework (C#): [pdt-cfw-components](https://github.com/programming-digital-twins/pdt-cfw-components)
- - Digital Twin Application (specific to Unity 3D - C# and other): [pdt-unity-components](https://github.com/programming-digital-twins/pdt-unity-components)
+There are two primary repositories that provide the core content for this project - the EDA and PUP:
+ - PDT Edge Device Application (EDA - written in Python): EDA - [pdt-edge-components](https://github.com/programming-digital-twins/pdt-edge-components)
+ - PDT Unity Package (PUP - Unity C# and other): PUP - [LabBenchStudios-PDT-Unity](https://github.com/programming-digital-twins/LabBenchStudios-PDT-Unity)
+   - NOTE: Since the PDT Unity Package (PUP) already contains the PDT Client Framework (CFW) DLL (Lbs.Pdt.ClientFramework.dll) listed next, along with other DLL dependencies. As such, it can be installed as a Unity Package within the Unity Editor via its git URL; therefore, only the EDA and PUP repositories are required for the course. The CFW repository is available for perusal as needed.
 
-The combination of these repositories, coupled with the [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1) I mentioned previously, comprise the lab module exercises and frameworks needed for implementation.
+When used in conjunction with the [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1), a basic end-to-end Digital Twin simulation capability can be created for testing and learning purposes.
 
-If you're a student in Building Digital Twins, you'll find a fourth repository containing document templates (README files) for each Lab Module in [pdt-exercise-docs](https://github.com/programming-digital-twins/pdt-exercise-docs). These templates will help you document your technical approach for each Lab Module and the Semester Project.
- - Exercise Docs (Markdown): [pdt-exercise-docs](https://github.com/programming-digital-twins/pdt-exercise-docs)
+If you're a student in Building Digital Twins, you'll find two additional repositories - the Client Framework (CFW) and Exercise Documentation Templates (EDT). The latter contains containing the Markdown templates required for documenting solutions to lab modules contained in the Programming Digital Twins Kanban Board:
+ - Exercise Doc Templates (EDT - Markdown): EDT - [pdt-exercise-docs](https://github.com/programming-digital-twins/pdt-exercise-docs)
+ - PDT Client Framework (CFW - written in C#): CFW - [pdt-cfw-components](https://github.com/programming-digital-twins/pdt-cfw-components)
 
 ## Links, Exercises, Updates, Errata, and Clarifications
 
@@ -38,12 +39,12 @@ Lab Modules are organized into 'parts', which are intended to represent categori
   - [Part 03: Use Cases](https://github.com/programming-digital-twins/pdt-exercise-tasks/issues/6)
   - [Part 04: Final Project](https://github.com/programming-digital-twins/pdt-exercise-tasks/issues/7)
   
-Each exercise within a given Lab Module has at least one label, intended to assist with categorizing the work to be done, as follows:
+Each exercise within a given Lab Module is labeled using one or more of the following categories:
   - [build](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/additional): Build and / or DevOps related task (e.g., checkout a new branch).
   - [configuration](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/configuration): Configuration related task (e.g., install some software).
   - [documentation](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/documentation): Documentation related task (e.g., write-up your approach).
   - [exercise](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/exercise): Required exercise related task (i.e., you should implement this).
-  - [additional](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/additional): Additional exercise task (i.e., if you're a student in my class, you should implement this, although it is currently optional).
+  - [additional](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/additional): Optional (additional) exercise task (i.e., if you're a student in my class, you should implement this, although it is currently optional).
   - [integration](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/integration): Test and integration related task (e.g., test connection between apps).
   
 ## About Naming and Numbering Conventions
