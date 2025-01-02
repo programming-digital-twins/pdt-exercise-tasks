@@ -4,28 +4,36 @@ This project captures the Lab Module exercises and associated requirements desig
 
 All Lab Module exercises can be found here:
 
- - [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
+- [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
 
 # How to Use This Content
 
-There are dozens of exercises listed, each part of building a basic, end-to-end Digital Twin solution - step by step. This content is based on the course I created for teaching introductory IoT and Digital Twins concepts in a lab-based University course.
+- Review the Kanban Board
+  - Available: [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
+  - Description: There are dozens of exercises listed, each part of building a basic, end-to-end Digital Twin solution - step by step. This content is based on the course I created for teaching introductory IoT and Digital Twins concepts in a lab-based University course.
 
-There are two primary repositories that provide the core content for this project - the EDA and PUP:
- - EDA - [pdt-edge-components](https://github.com/programming-digital-twins/pdt-edge-components): PDT Edge Device Application (written in Python)
- - PUP - [LabBenchStudios-PDT-Unity](https://github.com/programming-digital-twins/LabBenchStudios-PDT-Unity): PDT Unity Package (Unity C# scripts, prefabs, models, and more)
-   - NOTE: Since the PDT Unity Package (PUP) already contains the PDT Client Framework (CFW) DLL (Lbs.Pdt.ClientFramework.dll) listed next, along with other DLL dependencies. As such, it can be installed as a Unity Package within the Unity Editor via its git URL; therefore, only the EDA and PUP repositories are required for the course. The CFW repository is available for perusal as needed.
+- Review the two primary code and asset repositories (there are four total, but the following two repositories are most important for moving out with the Kanban Board exercises):
+  - EDA - [pdt-edge-components](https://github.com/programming-digital-twins/pdt-edge-components): PDT Edge Device Application (written in Python)
+    - This repository contains the Python-based application that can interact with the Digital Twin App (DTA) via an MQTT broker.
+  - PUP - [LabBenchStudios-PDT-Unity](https://github.com/programming-digital-twins/LabBenchStudios-PDT-Unity): PDT Unity Package (Unity C# scripts, prefabs, models, and more)
+    - NOTE: Since the PDT Unity Package (PUP) already contains the PDT Client Framework (CFW) DLL (Lbs.Pdt.ClientFramework.dll) listed next, along with other DLL dependencies. As such, it can be installed as a Unity Package within the Unity Editor via its git URL; therefore, only the EDA and PUP repositories are required for the course. The CFW repository is available for perusal as needed.
 
-When used in conjunction with the [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1), a basic end-to-end Digital Twin simulation capability can be created for testing and learning purposes.
+- If you're a student in Building Digital Twins, review the doc templates and client framework repositories:
+  - EDT - [pdt-exercise-docs](https://github.com/programming-digital-twins/pdt-exercise-docs): Exercise Doc Templates (Markdown)
+    - These markdown files are necessary for students of Building Digital Twins, as they will be part of each lab module assignment and need to be submitted as part of the lab module work.
+  - CFW - [pdt-cfw-components](https://github.com/programming-digital-twins/pdt-cfw-components): PDT Client Framework (written in C#)
+    - The client framework comprises the `LBS.PdtClientFramework.dll` that is used by the PUP and enables the DTA to communicate with the EDA via MQTT, and interpret incoming telemetry from the EDA. It also supports parsing of DTDL-based models and synchronization of models to EDA telemetry via another JSON-based mapping layer.
 
-If you're a student in Building Digital Twins, you'll find two additional repositories - the Client Framework (CFW) and Exercise Documentation Templates (EDT). The latter contains containing the Markdown templates required for documenting solutions to lab modules contained in the Programming Digital Twins Kanban Board:
- - EDT - [pdt-exercise-docs](https://github.com/programming-digital-twins/pdt-exercise-docs): Exercise Doc Templates (Markdown)
- - CFW - [pdt-cfw-components](https://github.com/programming-digital-twins/pdt-cfw-components): PDT Client Framework (written in C#)
+- Build a Digital Twin
+  - Implement each lab module described in the [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
+  - Run the tests described in each module
+  - Have fun building!
 
 ## Links, Exercises, Updates, Errata, and Clarifications
 
 Please see the following links to access exercises for Programming Digital Twins and the Programming the Internet of Things book:
- - [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
- - [Programming the Internet of Things Book](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/)
+- [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
+- [Programming the Internet of Things Book](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/)
 
 # How Exercises are Organized
 
