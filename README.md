@@ -9,8 +9,8 @@ All Lab Module exercises can be found here:
 # How to Use This Content
 
 - Step 1: Review the Kanban Board
-  - Available: [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
-  - Description: There are dozens of exercises listed, each part of building a basic, end-to-end Digital Twin solution - step by step. This content is based on the course I created for teaching introductory IoT and Digital Twins concepts in a lab-based University course.
+  - Available here: [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
+  - There are dozens of exercises listed, each part of building a basic, end-to-end Digital Twin solution - step by step. This content is based on the course I created for teaching introductory IoT and Digital Twins concepts in a lab-based University course.
 
 - Step 2: Review the two primary code and asset repositories (there are four total, but the following two repositories are most important for moving out with the Kanban Board exercises):
   - EDA - [pdt-edge-components](https://github.com/programming-digital-twins/pdt-edge-components): PDT Edge Device Application (written in Python)
