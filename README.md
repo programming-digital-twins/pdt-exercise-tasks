@@ -1,4 +1,6 @@
-# Programming Digital Twins - Lab Module Tasks Overview
+# Programming Digital Twins - Lab Module Tasks
+
+## Overview
 
 This project captures the Lab Module exercises and associated requirements designed to be implemented sequentially - in order - from Lab Module 01 to Lab Module 10. Some of the content is derived from my O'Reilly Media book, [Programming the Internet of Things](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401), which is a useful reference for building the Edge Device Application and message-passing logic between it and the Digital Twin Application.
 
@@ -6,7 +8,7 @@ All Lab Module exercises can be found here (NOTE: The tasks contained in this re
 
 - [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
 
-## Project Objectives
+### Project Objectives
 
 The [pdt-exercise-tasks](https://github.com/programming-digital-twins/pdt-exercise-tasks) project and repository have three primary objectives:
 
@@ -18,9 +20,24 @@ The [pdt-exercise-tasks](https://github.com/programming-digital-twins/pdt-exerci
 
 NOTE: The exercise tasks (or Issues) contained in this repository are contained within an ordered Kanban Board to the reader can build their own experimental digital twins platform.
 
-## How to Use This Content
+### Helpful Links
 
-- Step 1: Review the Kanban Board - this contains all exercise tasks within an ordered board
+PDT Kanban Board: [Programming Digital Twins Requirements](https://github.com/orgs/programming-digital-twins/projects/1)
+
+Please see the following links for some helpful information about the PDT exercises and other associated repositories. Please note that many of the exercises and sample source code in this repository is based on some of the patterns and exercises from my book, [Programming the Internet of Things Book](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
+ - Programming Digital Twins (PDT) specific:
+   - [Programming Digital Twins Exercises (aka PDT Kanban Board)](https://github.com/orgs/programming-digital-twins/projects/1)
+   - [Programming Digital Twins - LBS PDT Unity Package](https://github.com/programming-digital-twins/LabBenchStudios-PDT-Unity/)
+   - [Programming Digital Twins Client Framework Repository](https://github.com/programming-digital-twins/pdt-cfw-components)
+   - [Programming Digital Twins Edge Components Repository](https://github.com/programming-digital-twins/pdt-edge-components)
+   - [Programming Digital Twins Exercise Doc Templates Repository](https://github.com/programming-digital-twins/pdt-exercise-docs)
+ - Other reading links:
+   - [Programming the Internet of Things Exercises (aka PIOT Kanban Board)](https://github.com/orgs/programming-the-iot/projects/5)
+   - [Programming the Internet of Things Book](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/)
+
+## Usage
+
+- Step 1: Review the [Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1) - this contains all exercise tasks within an ordered board
   - Available here: [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
     - There are dozens of exercises listed, each part of building a basic, end-to-end Digital Twin solution - step by step. This content is based on the course I created for teaching introductory IoT and Digital Twins concepts in a lab-based University course.
 
@@ -41,17 +58,11 @@ NOTE: The exercise tasks (or Issues) contained in this repository are contained 
     - Run the tests described in each module to verify functionality works as expected
   - Have fun building!
 
-## Links, Exercises, Updates, Errata, and Clarifications
-
-Please see the following links to access exercises for Programming Digital Twins and the Programming the Internet of Things book:
-- [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
-- [Programming the Internet of Things Book](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/)
-
-# How Exercises are Organized
+## Organization
 
 The requirements contained within this repository are captured as a simple list of dozens of tasks and activities - some are documentation-specific while most are programming-specific - and labeled according to activity category, chapter, and implementation order.
 
-## About Lab Modules, Milestones and Labels
+### Lab Modules, Milestones and Labels Navigation
 
 Lab Modules are organized into 'parts', which are intended to represent categories of exercises that are related, yet are also designed to be implemented in sequence, as each part is intended to be implemented in sequence (e.g., Part 01 first, with each lab module implemented in order, followed by Part 02, etc.) Lab module details are currently under development and will be linked here when available. For now, the structure is as follows: 
   - [Part 01: Foundations](https://github.com/programming-digital-twins/pdt-exercise-tasks/issues/4)
@@ -67,7 +78,7 @@ Each exercise within a given Lab Module is labeled using one or more of the foll
   - [additional](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/additional): Optional (additional) exercise task (i.e., if you're a student in my class, you should implement this, although it is currently optional).
   - [integration](https://github.com/programming-digital-twins/pdt-exercise-tasks/labels/integration): Test and integration related task (e.g., test connection between apps).
   
-## About Naming and Numbering Conventions
+### About Naming and Numbering Conventions
 
 Exercises and notes are named according to the following convention:
 
@@ -105,33 +116,18 @@ The structure of each chapter's notes and requirements are sequenced based on th
 
 NOTE: As alluded to previously, an exception to the numbering sequence scheme is made for build-specific tasks related to the EDA and DTA. The initial build requirement (check out a new branch) is numbered '000' for each component (e.g., PDT-EDA-02-000) and should be implemented before any other component-specific requirement, and '100' for the final build requirement (e.g., PDT-EDA-02-100), which should be implemented after all other component-specific requirements.
 
-# Other Things to Know
+## Other things to know
 
-## Pull Requests
+### Pull requests
 
-PR's are currently disabled.
+PR's are disabled while the codebase is being developed.
 
-## Updates
+### Updates
 
-Much of the tasks and issues representing requirements within this repository will continue to evolve, so you may want to check back regularly for potential updates. Please note that this repository is still under active development - you'll likely find typos and other errata.
+Much of this repository, and in particular unit and integration tests, will continue to evolve, so please check back regularly for potential updates.
+Please note that API changes can - and likely will - occur at any time.
 
-# License
-
-Please see [LICENSE information in PDT-DOC-LIC](https://github.com/programming-digital-twins/pdt-exercise-tasks/issues/2) for more information. In summary:
-
-*Documentation - Usage and License*
-
-This project's [written instructions and non-source code documentation](https://github.com/orgs/programming-digital-twins/projects/1) - all Notes, Instructions and Cards contained within this Kanban board - are available under the following license:
- - Documentation: Copyright &copy; 2024 by [Andrew D. King](https://andyking.me). Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/ " target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0 <img height="24" style="!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img height="24" style="!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img height="24" style="!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img height="24" style="!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>.
- - See [LICENSE](https://github.com/programming-digital-twins/pdt-exercise-tasks/blob/default/LICENSE-DOCS.md) for details.
-
-*Source Code Solutions and Examples - Usage and License*
-
-This project contains embedded sample source codes representing examples and solutions. Unless otherwise represented, these embedded source codes (C# and Python) are available under the following license:
- - Source Codes: Copyright &copy; 2024 [Andrew D. King](https://andyking.me). Licensed under [The MIT License](https://opensource.org/licenses/MIT).
- - See [LICENSE-CODE](https://github.com/programming-digital-twins/pdt-exercise-tasks/blob/default/LICENSE-CODE.md) for details.
-
-# References
+# REFERENCES
 
 ## Tools and Specifications (subject to change)
 
@@ -151,10 +147,14 @@ This project contains embedded sample source codes representing examples and sol
   - Reference: James Newton-King. Json.NET JSON framework for .NET. (2024) [Online]. Available: https://github.com/JamesNK/Newtonsoft.Json.
 - [NUnit](https://nunit.org/)
   - Reference: Charlie Poole, Rob Prouse. Nunit unit testing framework for .NET languages. (2024) [Online]. Available: https://github.com/nunit.
+- [OllamaSharp](https://github.com/awaescher/OllamaSharp)
+  - Reference: Andreas Wäscher. Provides .NET bindings for the Ollama API. (2025) [Online]. Available: https://github.com/awaescher/OllamaSharp.
 - [pdt-cfw-components](https://github.com/programming-digital-twins/pdt-cfw-components)
   - Reference: Andrew D. King. Programming Digital Twins Client Framework Components (Client Framework). (2024) [Online]. Available: https://github.com/programming-digital-twins/pdt-cfw-components.
 - [pdt-edge-components](https://github.com/programming-digital-twins/pdt-edge-components)
   - Reference: Andrew D. King. Programming Digital Twins Edge Components (Edge Device App). (2024) [Online]. Available: https://github.com/programming-digital-twins/pdt-edge-components.
+- [pdt-exercise-docs](https://github.com/programming-digital-twins/pdt-exercise-docs)
+  - Reference: Andrew D. King. Programming Digital Twins Exercise Docs Template. (2024) [Online]. Available: https://github.com/programming-digital-twins/pdt-exercise-docs.
 - [pdt-unity-components](https://github.com/programming-digital-twins/pdt-unity-components)
   - Reference: Andrew D. King. Programming Digital Twins Unity Components (Digital Twin App). (2024) [Online]. Available: https://github.com/programming-digital-twins/pdt-unity-components.
 - [Sense-Emu](https://sense-emu.readthedocs.io/en/v1.1/)
@@ -167,3 +167,25 @@ This project contains embedded sample source codes representing examples and sol
   - Reference: Microsoft. Visual Studio Code. Available: https://code.visualstudio.com/. Accessed 15Nov2023.
 - [Wireshark](https://www.wireshark.org/)
   - Reference: G. Combs et al. Wireshark. Available: https://gitlab.com/wireshark/wireshark. Accessed 15Nov2023.
+
+# IMPORTANT NOTES
+
+This code base is under active development.
+
+If any code samples or other technology this work contains, describes, and / or is subject to open source licenses or the intellectual property rights of others, it is your responsibility to ensure that your use thereof complies with such licenses and/or rights.
+
+# LICENSE
+
+Please see [LICENSE information in PDT-DOC-LIC](https://github.com/programming-digital-twins/pdt-exercise-tasks/issues/2) for more information. In summary:
+
+*Documentation - Usage and License*
+
+This project's [written instructions and non-source code documentation](https://github.com/orgs/programming-digital-twins/projects/1) - all Notes, Instructions and Cards contained within this Kanban board - are available under the following license:
+ - Documentation: Copyright &copy; 2024 by [Andrew D. King](https://andyking.me). Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/ " target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0 <img height="24" style="!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img height="24" style="!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img height="24" style="!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img height="24" style="!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>.
+ - See [LICENSE](https://github.com/programming-digital-twins/pdt-exercise-tasks/blob/default/LICENSE-DOCS.md) for details.
+
+*Source Code Solutions and Examples - Usage and License*
+
+This project contains embedded sample source codes representing examples and solutions. Unless otherwise represented, these embedded source codes (C# and Python) are available under the following license:
+ - Source Codes: Copyright &copy; 2024 [Andrew D. King](https://andyking.me). Licensed under [The MIT License](https://opensource.org/licenses/MIT).
+ - See [LICENSE-CODE](https://github.com/programming-digital-twins/pdt-exercise-tasks/blob/default/LICENSE-CODE.md) for details.
