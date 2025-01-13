@@ -2,13 +2,25 @@
 
 This project captures the Lab Module exercises and associated requirements designed to be implemented sequentially - in order - from Lab Module 01 to Lab Module 10. Some of the content is derived from my O'Reilly Media book, [Programming the Internet of Things](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401), which is a useful reference for building the Edge Device Application and message-passing logic between it and the Digital Twin Application.
 
-All Lab Module exercises can be found here:
+All Lab Module exercises can be found here (NOTE: The tasks contained in this repository are 'issues' which are ordered within the Kanban Board listed below):
 
 - [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
 
-# How to Use This Content
+## Project Objectives
 
-- Step 1: Review the Kanban Board
+The [pdt-exercise-tasks](https://github.com/programming-digital-twins/pdt-exercise-tasks) project and repository have three primary objectives:
+
+(1) Build a largely F/OSS Digital Twin framework that can work with other [Programming Digital Twins projects](https://github.com/programming-digital-twins) and their repositories to sync live data, DTDL models, and a JSON-based constraint mapping layer, and render within a COTS physics sim engine (e.g., Unity 6).
+
+(2) Use a digital twin asset's configuration data to auto-generate a GPT AI prompt to query one or more locally running LLM's to retrieve predictive maintenance recommendations for the specific system within the Digital Twin environment.
+
+(3) Provide a baseline technology platform for my Northeastern University College of Engineering graduate students (and me) to learn and experiment with various Digital Twin use cases.
+
+NOTE: The exercise tasks (or Issues) contained in this repository are contained within an ordered Kanban Board to the reader can build their own experimental digital twins platform.
+
+## How to Use This Content
+
+- Step 1: Review the Kanban Board - this contains all exercise tasks within an ordered board
   - Available here: [Programming Digital Twins Kanban Board](https://github.com/orgs/programming-digital-twins/projects/1)
     - There are dozens of exercises listed, each part of building a basic, end-to-end Digital Twin solution - step by step. This content is based on the course I created for teaching introductory IoT and Digital Twins concepts in a lab-based University course.
 
