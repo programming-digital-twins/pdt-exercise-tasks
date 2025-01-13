@@ -10,7 +10,7 @@ All Lab Module exercises can be found here (NOTE: The tasks contained in this re
 
 ### Project Objectives
 
-The [pdt-exercise-tasks](https://github.com/programming-digital-twins/pdt-exercise-tasks) project and repository have three primary objectives:
+The [LabBenchStudios-PDT-Unity](https://github.com/programming-digital-twins/LabBenchStudios-PDT-Unity) project is intended to be used with [pdt-exercise-tasks](https://github.com/programming-digital-twins/pdt-exercise-tasks) repository has three primary objectives:
 
 (1) Build a largely F/OSS Digital Twin framework that can work with other [Programming Digital Twins projects](https://github.com/programming-digital-twins) and their repositories to sync live data, DTDL models, and a JSON-based constraint mapping layer, and render within a COTS physics sim engine (e.g., Unity 6).
 
